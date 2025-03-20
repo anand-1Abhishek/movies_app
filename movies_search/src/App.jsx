@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 
 const API_KEY = "67ab9d14"; 
-const API_URL = "http://www.omdbapi.com/";
+const API_URL = "https://www.omdbapi.com/";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
